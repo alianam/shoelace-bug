@@ -1,5 +1,7 @@
 # Minimal reproduction of `sl-select` bug
 
+https://github.com/shoelace-style/shoelace/issues/1570
+
 ## Setup
 
 1. Clone the repo
