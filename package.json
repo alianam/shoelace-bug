@@ -1,0 +1,11 @@
+{
+  "name": "shoelace-bug",
+  "version": "1.0.0",
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.8.0",
+    "esbuild": "^0.19.3"
+  },
+  "scripts": {
+    "dev": "esbuild app.js --bundle --servedir=www --outdir=www/build"
+  }
+}

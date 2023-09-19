@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test</title>
+    <link rel="stylesheet" href="/build/app.css" />
+    <script src="/build/app.js"></script>
+  </head>
+  <body>
+    <h1>In page source</h1>
+    <sl-select value="one">
+      <sl-option value="one">One</sl-option>
+      <sl-option value="two">Two</sl-option>
+      <sl-option value="three">Three</sl-option>
+    </sl-select>
+
+    <template id="deferred-sl-select">
+      <h1>Appended after <code>sl-option</code> is defined</h1>
+      <sl-select value="one">
+        <sl-option value="one">One</sl-option>
+        <sl-option value="two">Two</sl-option>
+        <sl-option value="three">Three</sl-option>
+      </sl-select>
+    </template> 
+
+    <script type="module">
+      await window.customElements.whenDefined("sl-option");
+
+      document.body.appendChild(document.getElementById("deferred-sl-select").content.cloneNode(true));
+    </script>
+  </body>
+</html>
