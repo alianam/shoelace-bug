@@ -1,6 +1,6 @@
 # Minimal reproduction of checkValidity bug
 
-https://github.com/shoelace-style/shoelace/issues/{add-issue-here-once-created}
+https://github.com/shoelace-style/shoelace/issues/1745
 
 ## Setup
 
