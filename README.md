@@ -1,12 +1,12 @@
-# Minimal reproduction of `sl-select` bug
+# Minimal reproduction of checkValidity bug
 
-https://github.com/shoelace-style/shoelace/issues/1570
+https://github.com/shoelace-style/shoelace/issues/{add-issue-here-once-created}
 
 ## Setup
 
 1. Clone the repo
     ```
-    git clone git@github.com:davidcornu/shoelace-bug.git
+    git clone https://github.com/alianam/shoelace-bug.git
     ```
 2. Install dependencies
     ```
